@@ -1,0 +1,22 @@
+{
+    "name": "dulaj/birth_certificate_system",
+    "autoload": {
+        "psr-4": {
+            "Dulaj\\BirthCertificateSystem\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "DulajHewathanna",
+            "email": "dulajhewathannanw@gmail.com"
+        }
+    ],
+    "require": {
+        "defuse/php-encryption": "2.4",
+        "respect/validation": "2.3",
+        "vlucas/phpdotenv": "5.6",
+        "firebase/php-jwt": "6.10",
+        "monolog/monolog": "3.7",
+        "guzzlehttp/guzzle": "7.9"
+    }
+}
